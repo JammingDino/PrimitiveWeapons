@@ -2,25 +2,31 @@
   "schemaVersion": 1,
   "id": "primitive_weapons",
   "version": "${version}",
-
   "name": "Primitive Weapons",
   "description": "",
-  "authors": [],
-  "contact": {},
-
+  "authors": [
+    "JammingDino"
+  ],
+  "contact": {
+    "repo": "https://github.com/levip/Primitive Weapons"
+  },
   "license": "Apache-2.0",
   "icon": "assets/primitive_weapons/icon.png",
-
   "environment": "*",
-  "entrypoints": {},
-
-          "mixins": [
-        "primitive_weapons.mixins.json"
-      ],
-    
+  "entrypoints": {
+    "client": [
+      "org.jammingdino.primitive_weapons.client.PrimitiveWeaponsClient"
+    ],
+    "main": [
+      "org.jammingdino.primitive_weapons.PrimitiveWeapons"
+    ]
+  },
+  "mixins": [
+    "primitive_weapons.mixins.json"
+  ],
   "depends": {
     "fabricloader": ">=${loader_version}",
-              "fabric": "*",
-          "minecraft": "${minecraft_version}"
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
   }
 }

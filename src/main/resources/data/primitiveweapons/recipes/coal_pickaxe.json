@@ -3,8 +3,8 @@
   "category": "misc",
   "pattern": [
     "CCC",
-    "ASA",
-    "ASA"
+    " S ",
+    " S "
   ],
   "key": {
     "S": {
@@ -12,9 +12,6 @@
     },
     "C": {
       "item": "minecraft:coal"
-    },
-    "A": {
-      "item": "minecraft:air"
     }
   },
   "result": {

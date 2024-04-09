@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/handheld",
   "textures": {
-    "layer0": "primitiveweapons:item/coal_axe"
+    "layer0": "primitiveweapons:item/copper_pickaxe"
   }
 }

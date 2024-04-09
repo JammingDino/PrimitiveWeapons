@@ -1,19 +1,19 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "CC",
-    "SC",
-    "S "
+    "C",
+    "C",
+    "S"
   ],
   "key": {
     "S": {
       "item": "minecraft:stick"
     },
     "C": {
-      "item": "minecraft:coal"
+      "item": "minecraft:copper_ingot"
     }
   },
   "result": {
-    "item": "primitiveweapons:coal_axe"
+    "item": "primitiveweapons:copper_sword"
   }
 }

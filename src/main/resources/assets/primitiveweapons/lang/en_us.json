@@ -1,0 +1,13 @@
+{
+  "item.primitiveweapons.coal_pickaxe": "Coal Pickaxe",
+  "item.primitiveweapons.coal_axe": "Coal Axe",
+  "item.primitiveweapons.coal_shovel": "Coal Shovel",
+  "item.primitiveweapons.coal_hoe": "Coal Hoe",
+  "item.primitiveweapons.coal_sword": "Coal Sword",
+  "item.primitiveweapons.copper_pickaxe": "Copper Pickaxe",
+  "item.primitiveweapons.copper_axe": "Copper Axe",
+  "item.primitiveweapons.copper_shovel": "Copper Shovel",
+  "item.primitiveweapons.copper_hoe": "Copper Hoe",
+  "item.primitiveweapons.copper_sword": "Copper Sword",
+  "itemgroup.primitive" : "Primitive Items"
+}
