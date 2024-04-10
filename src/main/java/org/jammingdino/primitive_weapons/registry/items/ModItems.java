@@ -22,6 +22,10 @@ public class ModItems {
     public static final Item COPPER_HOE = registerItem("copper_hoe", new HoeItem(ModItemMaterial.COPPER, -1, -0.5f, new FabricItemSettings()));
     public static final Item COPPER_SWORD = registerItem("copper_sword", new SwordItem(ModItemMaterial.COPPER, 5, -2.6f, new FabricItemSettings()));
 
+    public static final Item BONE_STABBER = registerItem("bone_stabber", new SwordItem(ModItemMaterial.BONE, 3, -1.3f, new FabricItemSettings()));
+    public static final Item SHARP_STICK = registerItem("sharp_stick", new SwordItem(ModItemMaterial.WOOD, 1, -0.8f, new FabricItemSettings()));
+    public static final Item CLUB = registerItem("club", new SwordItem(ModItemMaterial.WOOD, 8, -3.8f, new FabricItemSettings()));
+
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
         entries.add(COAL_PICKAXE);
     }

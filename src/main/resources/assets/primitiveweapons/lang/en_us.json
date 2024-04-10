@@ -9,5 +9,8 @@
   "item.primitiveweapons.copper_shovel": "Copper Shovel",
   "item.primitiveweapons.copper_hoe": "Copper Hoe",
   "item.primitiveweapons.copper_sword": "Copper Sword",
+  "item.primitiveweapons.bone_stabber": "Bone Stabber",
+  "item.primitiveweapons.sharp_stick": "Sharp Stick",
+  "item.primitiveweapons.club": "Club",
   "itemgroup.primitive" : "Primitive Items"
 }

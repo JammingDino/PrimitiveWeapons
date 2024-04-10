@@ -27,6 +27,10 @@ public class ModItemGroups {
                         entries.add(ModItems.COPPER_HOE);
                         entries.add(ModItems.COPPER_SWORD);
 
+                        entries.add(ModItems.BONE_STABBER);
+                        entries.add(ModItems.SHARP_STICK);
+                        entries.add(ModItems.CLUB);
+
                     }).build());
 
     public static void registerItemGroups() {

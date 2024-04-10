@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "C",
+    "S",
+    "C"
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:leather"
+    },
+    "C": {
+      "item": "minecraft:bone"
+    }
+  },
+  "result": {
+    "item": "primitiveweapons:bone_stabber"
+  }
+}

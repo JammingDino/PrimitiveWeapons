@@ -8,7 +8,9 @@ import java.util.function.Supplier;
 
 public enum ModItemMaterial implements ToolMaterial {
     COAL(1, 200, 4.0f, 1f, 12, () -> Ingredient.ofItems(Items.COAL)),
-    COPPER(2, 350, 7.0f, 1f, 14, () -> Ingredient.ofItems(Items.COPPER_INGOT));
+    COPPER(2, 350, 7.0f, 1f, 14, () -> Ingredient.ofItems(Items.COPPER_INGOT)),
+    BONE(2, 230, 5.5f, 1f, 4, () -> Ingredient.ofItems(Items.BONE)),
+    WOOD(1, 49, 2.0f, 1f, 8, () -> Ingredient.ofItems(Items.OAK_LOG));
 
     private final int miningLevel;
     private final int itemDurability;
